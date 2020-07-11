@@ -14,7 +14,7 @@ let {id} =this.props.content
 let userid =this.props.user.id
 let token =localStorage.getItem(`token`)
 
-fetch(`http://localhost:3000/contents/${id}/likes`, {
+fetch(`https://retro-back.herokuapp.com/contents/${id}/likes`, {
     method: "POST",
     headers: {
         'Content-type' : 'application/json',
