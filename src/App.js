@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
+import './App.css';
 import Form from './components/Form'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
